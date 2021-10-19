@@ -1,0 +1,79 @@
+body{
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+}
+p{
+  font-family: sans-serif;
+  font-size: 20px;
+  color: rgb(60,60,60);
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+p:active{
+  font-family: sans-serif;
+  font-size: 20px;
+  color: rgb(60,60,60);
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+@keyframes bounce {
+  0% {transform: translateY(0px)}
+  50% {transform: translateY(15px)}
+  100% {transform: translateY(0px)}
+}
+
+.logo{
+  padding-top: 10%;
+  display: inline-block;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@media all and (max-height: 700px) {
+  img{
+    height: 300px;
+  }
+}
+
+footer{
+  color: rgb(20,20,20);
+  position: bottom;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-family: Helvetica;
+}
+
+@media all and (max-width: 700px){
+  img{
+    height: 300px;
+  }
+}
+
+footer{
+  color: rgb(20,20,20);
+  position: bottom;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-family: Helvetica;
+}
+
+div{
+  padding-top: 10%;
+}
+/* Bounce Animation: https://jsfiddle.net/e5eamncx/ */
